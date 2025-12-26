@@ -3,9 +3,9 @@
 A **modern, dark-themed signup interface** designed for seamless user onboarding.  
 This UI focuses on **clarity, aesthetics, and smooth user experience**, combining minimal design with subtle animations.
 
-# Glassmorphism_Login_UI
+# Multi_Step_Signup_UI
 
-A **glassmorphism-inspired React authentication UI featuring translucent surfaces, soft blur effects, and elegant depth.**
+A **multi-step signup UI that guides users through a smooth, step-by-step onboarding flow with clear progress, minimal friction, and a modern user experience.**
 
 
 
