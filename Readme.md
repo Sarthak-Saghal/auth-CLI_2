@@ -72,5 +72,41 @@ The signup screen is divided into two main sections:
 - Vite / CRA
 
 ---
+## 🔗 Application Routing Structure
 
+The application routes are defined in `App.jsx` as follows:
+
+```jsx
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Signup from "./Pages/Signup";
+import Login from "./Pages/Login";
+import ForgotPassword from "./Pages/ForgotPassword";
+import Logout from "./Pages/Logout";
+
+export default function App() {
+  return (
+    <Routes>
+      {/* Redirect root to signup */}
+      <Route path="/" element={<Navigate to="/signup" replace />} />
+
+      {/* Authentication routes */}
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
+      <Route path="/logout" element={<Logout />} />
+
+      {/* Fallback route */}
+      <Route
+        path="*"
+        element={
+          <div className="min-h-screen flex items-center justify-center text-white">
+            Page not found
+          </div>
+        }
+      />
+    </Routes>
+  );
+}
+```
 
