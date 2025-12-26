@@ -1,11 +1,17 @@
-# ✨ Modern Signup UI — React Authentication
+# ✨ Modern Signup UI — React Authentication 
 
 A **modern, dark-themed signup interface** designed for seamless user onboarding.  
 This UI focuses on **clarity, aesthetics, and smooth user experience**, combining minimal design with subtle animations.
 
+# Glassmorphism_Login_UI
+
+A **glassmorphism-inspired React authentication UI featuring translucent surfaces, soft blur effects, and elegant depth.**
+
+
+
 ---
 
-## 📦 Dependencies Installation (Required)
+### 📦 Dependencies Installation (Required)
 
 Before running the project, install the following dependencies:
 
